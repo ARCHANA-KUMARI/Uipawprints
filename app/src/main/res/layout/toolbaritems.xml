@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/profile"
+    android:src="@drawable/ic_account_circle_white_18dp"
+    android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pawprints"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/pawprint"
+        android:layout_toRightOf="@id/profile"
+        android:layout_marginLeft="70dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/foot"
+        android:layout_toRightOf="@id/pawprint"
+        android:src="@drawable/dogfoot"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="70dp"/>
+</RelativeLayout>
